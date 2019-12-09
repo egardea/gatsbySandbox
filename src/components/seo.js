@@ -37,7 +37,11 @@ function SEO({ description, lang, meta, title }) {
       meta={[
         {
           name: `description`,
-          content: metaDescription,
+          content: 'Sample Website for the Gatsby Sandbox',
+        },
+        {
+          name: 'keywords',
+          content: 'gatsby, react, javascript'
         },
         {
           property: `og:title`,
